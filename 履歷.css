@@ -1,0 +1,41 @@
+/* .row{
+    background: lightblue;
+}
+.row>div{
+    background: pink;
+    border: 1px solid #333;
+} */
+.head{
+    color: black;
+}
+/* 側欄footer */
+footer{
+    background-color: rgb(241, 198, 198);
+    display: none;
+}
+aside{
+    background-color: rgb(241, 198, 198);
+    position: relative;
+    left:-110px;
+}
+body{
+    background-color: rgb(250, 243, 243);
+}
+/* 側欄結束 */
+/* 主文right */
+.cc{
+    width: 200px;
+}
+.bb{background-color: rgb(245, 229, 229);}
+/* 主文結束 */
+
+@media (max-width:500px){
+
+    footer{
+        display: block;
+    }
+
+    aside{
+        display: none;
+    }
+}
